@@ -18,98 +18,102 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 
-
+html {
+    font-size: 10px;
+}
 
 div nav.nav-top button {
   padding: 25px;
-  border-radius: 20px;
-  margin-top: 50px;
-  margin-bottom: 60px;
-  margin-left: 120px;
-  margin-right: 120px;
+  border-radius: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
   color: white;
-  border: 0px;
+  border: 0rem;
   font-family: 'Roboto Mono', monospace;
-  font-size:19px;
-  letter-spacing: 2px;
-  
+  font-size:1.9rem;
+  letter-spacing: .2rem;
 }
 
 nav.nav-top button.first-nav {
   background: #FF764E;
-  width: 190px;
+  width: 19rem;
 }
 
 nav.nav-top button.second-nav {
   background: #5ed3eb;
-  width:200px;
-  
- 
+  width:20rem;
 }
 
 nav.nav-top button.third-nav {
   background: #ffcd69;
-  width:190px;
+  width:19rem;
 }
-
 
 span.nexttoc img.headerimg {
     display: inline-block;
     border-radius: 50%;
-    width: 250px;
-    margin: 25px 100px 50px 60px;
+    width: 25rem;
+    margin: 2.5rem 10rem 5rem 6rem;
     float: left;
 }
+
  span.nexttoc h1 {
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     text-align: center;
     font-family: 'Chelsea Market', cursive;
-     font-size: 70px;
+     font-size: 7rem;
  }
+
  p span.bold-one {
      font-weight: bold;
  }
 
 span.nexttoc p {
-   
     display: inline-block;
     text-align: center;
-    font-size: 20px;
-    margin: 0px 0px 20px 50px;
+    font-size: 2rem;
+    margin: 0rem 0rem 2rem 5rem;
     font-family: 'Roboto Mono', monospace;
-    
 }
 
 span.nexttoc p.nextp{
     display: block;
     width:65%;
-    margin: 0px 0px 20px 160px;
+    margin: 0rem 0rem 2rem 16rem;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -117,26 +121,24 @@ div.info {
     display: inline-block;
     color: white;
     background: #DDB9A3;
-    margin: 70px 70px 20px 70px;
-    padding: 20px;
+    margin: 7rem 7rem 2rem 7rem;
+    padding: 2rem;
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-    letter-spacing: 2px;
-    line-height: 20px;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    line-height: 2rem;
     text-align: center;
 }
 
 div.info p.info-secondp {
-
-margin-top: 30px;
-
+margin-top: 3rem;
 }
 
 div.fire img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 140px;
+    width: 14rem;
 }
 
 div.fire p {
@@ -144,17 +146,17 @@ div.fire p {
     margin-left: 25%;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    font-size: 13px;
-    line-height: 16px;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
 }
 
 div.vehicle img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 140px;
+    width: 14rem;
 }
 
 
@@ -163,53 +165,55 @@ div.vehicle p {
     margin-left: 25%;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    font-size: 13px;
-    line-height: 16px;
-    margin-bottom: 70px;
-}
-
-footer img.footimg{
-    display: inline-block;
-    height: 250px;
-    width: 100%;
-    margin-bottom: -30px;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin-bottom: 7rem;
 }
 
 
+   .footimg {
+     background-image:url('assets/footer_img.jpg');
+     width:144rem;
+     padding-bottom:-34rem;
+     padding-top:34rem;
+     background-size: cover;
+   }
 
-div nav.footnav button {
-  padding: 25px;
-  border-radius: 20px;
-  margin-top: 100px;
-  margin-bottom: 60px;
-  margin-left: 120px;
-  margin-right: 120px;
+.footnav button {
+  padding: 2.6rem;
+  border-radius: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+  margin-left: 12rem;
+  margin-right: 16rem;
   color: white;
-  border: 0px;
+  border: 0rem;
   font-family: 'Roboto Mono', monospace;
-  font-size:19px;
-  letter-spacing: 2px;
+  font-size:1.9rem;
+  letter-spacing: .2rem;
   background-color: #F9E7DC;
 }
 
 div nav.footnav {
     background-color:#F9E7DC;
+    width: 144rem;
 }
 
 nav.footnav button.first-nav {
     background: #FF764E;
-    width: 190px;
-  }
+    width: 19rem;
+    display: inline-block;
+ }
   
   nav.footnav button.second-nav {
     background: #5ed3eb;
-    width:200px;
-   
+    width:20rem;
+    display: inline-block;
   }
   
   nav.footnav button.third-nav {
     background: #ffcd69;
-    width:190px;
-   
+    width:19rem;
+    display: inline-block;
   }
 
